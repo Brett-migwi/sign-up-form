@@ -1,0 +1,143 @@
+* {
+  margin: 0em;
+  padding: 0em;
+  box-sizing: border-box;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body {
+  background-color: #e7e6e6;
+}
+
+.nain-container {
+  text-align: center;
+  padding-top: 1.2em;
+}
+
+#sign-up-container {
+  width: 460px;
+  height: 620px;
+  background-color: #e7e6e6;
+  margin: 1em;
+  display: inline-block;
+  border-radius: 9px;
+  box-shadow: 3px 3px 7px rgba(77, 77, 77, 0.5), -4px -4px 7px #fdfcfc;
+}
+
+#sign-up-container h2 {
+  margin-top: 2em;
+  font-weight: 800;
+  margin-bottom: 1em;
+}
+
+#sign-up-container .sign-up-header .sign-up-header-titles, #sign-up-container .sign-up-header .sign-up-header-check-box {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  margin: 1em 2em;
+}
+
+#sign-up-container .sign-up-header .sign-up-header-titles .dots, #sign-up-container .sign-up-header .sign-up-header-titles .active, #sign-up-container .sign-up-header .sign-up-header-check-box .dots, #sign-up-container .sign-up-header .sign-up-header-check-box .active {
+  margin-left: 2.2em;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  box-shadow: 3px 3px 7px rgba(77, 77, 77, 0.5), -4px -4px 7px #fdfcfc;
+  padding-top: 5px;
+  transition: .5s ease;
+}
+
+#sign-up-container .sign-up-header .sign-up-header-titles .dots::after, #sign-up-container .sign-up-header .sign-up-header-titles .active::after, #sign-up-container .sign-up-header .sign-up-header-check-box .dots::after, #sign-up-container .sign-up-header .sign-up-header-check-box .active::after {
+  content: " ";
+  display: inline-block;
+  width: 50px;
+  height: 3px;
+  background-color: black;
+  position: relative;
+  left: 2.5em;
+  top: -1.4em;
+}
+
+#sign-up-container .sign-up-header .sign-up-header-titles .dots:last-of-type::after, #sign-up-container .sign-up-header .sign-up-header-titles .active:last-of-type::after, #sign-up-container .sign-up-header .sign-up-header-check-box .dots:last-of-type::after, #sign-up-container .sign-up-header .sign-up-header-check-box .active:last-of-type::after {
+  display: none;
+}
+
+#sign-up-container .sign-up-header .sign-up-header-titles .active, #sign-up-container .sign-up-header .sign-up-header-titles .dots:hover, #sign-up-container .sign-up-header .sign-up-header-titles .dots:hover::after, #sign-up-container .sign-up-header .sign-up-header-check-box .active, #sign-up-container .sign-up-header .sign-up-header-check-box .dots:hover, #sign-up-container .sign-up-header .sign-up-header-check-box .dots:hover::after {
+  background-color: blue;
+  color: white;
+}
+
+#sign-up-container .sign-up-navigator {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 0em 2.9em;
+}
+
+#sign-up-container .sign-up-navigator button {
+  width: 180px;
+  height: 40px;
+  background-color: blue;
+  border: none;
+  outline: none;
+  border-radius: 6px;
+  color: white;
+  letter-spacing: 2px !important;
+  text-transform: uppercase;
+}
+
+#sign-up-container .sign-up-min-container {
+  width: auto;
+  height: 330px;
+  text-align: left;
+  margin: 0em  3em;
+}
+
+.sign-up-name {
+  display: none;
+}
+
+.sign-up-name:first-of-type {
+  display: block;
+}
+
+.sign-up-name button {
+  width: 300px;
+  height: 40px;
+  background-color: #13e713;
+  border-radius: 6px;
+  color: white;
+  border: none;
+  outline: none;
+  margin-left: 10%;
+  font-size: x-large;
+}
+
+.sign-up-name .submit-logo {
+  margin: 1em 29%;
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  transition: 3s ease;
+  box-shadow: 3px 3px 7px rgba(77, 77, 77, 0.5), -4px -4px 7px #fdfcfc;
+}
+
+.sign-up-name .submit-logo:hover {
+  box-shadow: inset 3px 3px 7px rgba(77, 77, 77, 0.5), inset -4px -4px 7px #fdfcfc;
+}
+
+form label, form input {
+  display: block;
+}
+
+form input {
+  margin-top: 8px;
+  margin-bottom: 1em;
+  width: 100%;
+  height: 2.5em;
+  border: none;
+  outline: none;
+  padding: 5px 1em;
+  background-color: #e7e6e6;
+  border-radius: 4px;
+  box-shadow: inset 1px 1px 4px rgba(77, 77, 77, 0.5), inset -1px -1px 4px rgba(77, 77, 77, 0.5);
+}
+/*# sourceMappingURL=index.css.map */
